@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import { useState } from 'react';
 
 //components
-// import Statistics from '../../containers/Statistics/Statistics';
+import PurchaseOrderRequests from '../../containers/PurchaseOrderRequests/PurchaseOrderRequests';
 
 import './applicationContent.css';
 
@@ -20,19 +20,12 @@ const ApplicationContent = (props) => {
             }
         >
             <Switch>
-                <Route
-                    path="/locations"
-                    // component={() => (
-                    //     <Locations setShowSubMenu={setShowSubMenu} />
-                    // )}
+            <Route
+                    path="/purchace-order-requests"
+                    component={() => (
+                        <PurchaseOrderRequests setShowSubMenu={setShowSubMenu} />
+                    )}
                 />
-                <Route
-                    path="/locations"
-                    // component={() => (
-                    //     <Locations setShowSubMenu={setShowSubMenu} />
-                    // )}
-                />
-
                 <Route
                     path="/"
                     // component={() => (

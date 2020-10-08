@@ -2,18 +2,19 @@
     text-align: center;
     background: #205374;
     height: 100%;
-    width: 80px;
+    width: 200px;
     overflow: hidden;
     z-index: 100;
     position: absolute;
     top: 0;
     left: 0;
+    padding-top: 2%;
 }
 
 .mnb-nav-link-container {
     text-align: center;
-    width: 80px;
-    height: 70px;
+    width: 100%;
+    height: 85px;
     padding: 10px 0;
     cursor: pointer;
 }
@@ -27,7 +28,62 @@
 }
 
 .mnb-nav-link-text {
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 5px;
     color: #fff;
+}
+
+
+
+
+
+
+
+
+
+.header {
+	height: 190px;
+	font-size: 1em;
+	color: white;
+	line-height: 1em;
+	background: #1a415c;
+	text-align: center;
+}
+
+.side-bar-profile-image {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.sidebar-user-name {
+	text-align: center;
+    font-size: normal;
+	color: #c0c0c0;
+    
+}
+
+.sidebar-user-email {
+	text-align: center;
+	font-size: small;
+	color: #c0c0c0;
+}
+
+.side-nav-logout-btn {
+	border: none;
+	border: #065e86 solid 1px;
+	background: #1a415c;
+	color: #fff;
+	padding: 0.4em 0.6em;
+	border-radius: 5px;
+	margin-bottom: 35%;
+	font-size: small;
+}
+
+.side-nav-logout-btn:hover {
+	background: #053247;
+}
+
+.side-nav-logout-btn:focus {
+	outline: none;
+	box-shadow: none;
 }
