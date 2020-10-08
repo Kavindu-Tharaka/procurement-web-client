@@ -7,7 +7,7 @@ import ApplicationContent from './components/ApplicationContent/ApplicationConte
 import ReactNotification from 'react-notifications-component'
 
 function App() {
-	const [selectedMainLink, setSelectedMainLink] = useState('working-time');
+	const [selectedMainLink, setSelectedMainLink] = useState('purchace-order-requests');
 
 	return (
 		<BrowserRouter>
